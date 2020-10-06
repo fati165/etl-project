@@ -1,6 +1,6 @@
 drop table Bass
 
-drop table carp_table
+drop table Carp_table
 
 CREATE USER admin1 with Password '12345';
 Alter User admin1 With SuperUser
@@ -23,4 +23,5 @@ CREATE TABLE Carp_table (
 	Result DECIMAL,
 	weightavg DECIMAL
 );
-SELECT * FROM public."Carp_table"
+
+SELECT * FROM carp_table
